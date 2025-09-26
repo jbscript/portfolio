@@ -103,12 +103,10 @@ export default function Home() {
           <NewsletterSection />
         </section>
          */}
-      <footer className="w-full mt-16">
+      <footer className="w-full mt-16 text-muted-foreground">
         <hr className="border-border" />
         <div className="flex items-center justify-between py-8">
-          <div className="text-sm font-normal text-muted-white">
-            Jabir © 2025
-          </div>
+          <div className="text-sm font-normal ">Jabir © 2025</div>
           <div className="text-base">👻</div>
         </div>
       </footer>
