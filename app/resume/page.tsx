@@ -2,6 +2,7 @@ import { ArrowRight, Download, MapPin } from "lucide-react";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import resumeData from "@/data/resume.json";
+import { getImagePath } from "@/lib/image-path";
 
 export default function StackPage() {
   return (
@@ -16,8 +17,9 @@ export default function StackPage() {
             </p>
           </div>
           <a
-            href="/resume.pdf"
-            download="Jabir_Resume.pdf"
+            href={getImagePath("/resume-ats.pdf")}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 px-3 py-1.5 text-xs font-medium text-foreground bg-background border border-border/50 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
           >
             <Download className="h-3 w-3" />
