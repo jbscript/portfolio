@@ -125,19 +125,29 @@ export default function StackPage() {
           {/* EducationSection  */}
           <section className="pt-12">
             <div className="border-t border-border pt-6">
-              <h3 className="text-section-header mb-6">EDUCATION</h3>
-              <div className="flex flex-col gap-6">
+              <div className="pb-6">
+                <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">
+                  Education
+                </h3>
+              </div>
+              <div className="flex flex-col gap-4">
                 {educationData.map((item, index) => (
-                  <div key={index}>
-                    <div>
-                      <h4 className="text-job-title">{item.degree}</h4>
-                      <div className="mt-1 flex flex-row items-center gap-1.5 text-company-date">
-                        <span>{item.institution}</span>
-                        <span>·</span>
-                        <span>{item.years}</span>
+                  <div key={index} className="block">
+                    <div className="flex flex-col gap-2">
+                      <div className="flex flex-col gap-1">
+                        <h4 className="text-base font-semibold text-foreground">
+                          {item.degree}
+                        </h4>
+                        <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                          <p>{item.institution}</p>
+                          <span>·</span>
+                          <p>{item.years}</p>
+                        </div>
                       </div>
+                      <p className="text-sm text-muted-foreground leading-normal">
+                        {item.description}
+                      </p>
                     </div>
-                    <p className="mt-2 text-body">{item.description}</p>
                   </div>
                 ))}
               </div>
