@@ -13,7 +13,7 @@ export default function StackPage() {
           <div className="flex items-center gap-2">
             <MapPin className="h-4 w-4 text-muted-foreground" />
             <p className="font-mono text-xs text-muted-foreground">
-              Trivandrum, Kerala
+              Kannur, Kerala
             </p>
           </div>
           <a
