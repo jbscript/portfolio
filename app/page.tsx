@@ -24,7 +24,7 @@ const socialLinks = [
 ];
 export default function Home() {
   return (
-    <main className="max-w-[1052px] mt-5 mx-auto p-6 sm:p-6 ">
+    <main className="max-w-[1052px] mt-5 mx-auto">
       <header className="flex justify-center mb-[50px]">
         <nav
           className="flex items-center gap-x-2"
@@ -57,7 +57,7 @@ export default function Home() {
           height={34}
           className="self-start"
         />
-        <div className="flex flex-col text-[#9b9c9c] items-start text-left text-[17px] font-medium gap-y-4 max-w-3xl md:max-w-4xl my-3">
+        <div className="flex flex-col text-[#9b9c9c] items-start text-left text-base font-medium gap-y-4 max-w-3xl md:max-w-4xl my-3">
           <h1 className="">
             I'm <span className="text-white">Jabir </span>, a designer and
             developer building digital products.
