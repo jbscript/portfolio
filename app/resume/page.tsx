@@ -53,6 +53,7 @@ export default function StackPage() {
               design, and innovative solutions.
             </p>
           </section>
+
           {/* ExperienceSection  */}
           <section className="border-t border-border/50 pt-12 px-4">
             <div className="pb-6">
@@ -224,8 +225,34 @@ export default function StackPage() {
               </div>
             </div>
           </section>
+
           {/* ToolsSection */}
-          <ToolsSection />
+          <section className="border-t border-border/50 pt-12 px-4">
+            <div className="pb-6">
+              <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">
+                Skills / Stack
+              </h3>
+            </div>
+            <div className="flex flex-col gap-4">
+              <div className="flex flex-wrap gap-2">
+                {skills.map((skill) => (
+                  <SkillPill key={skill} skill={skill} />
+                ))}
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {tools.map((tool) => (
+                  <ToolIcon
+                    key={tool.name}
+                    href={tool.href}
+                    name={tool.name}
+                    bgColorClass={tool.bgColorClass}
+                  >
+                    {tool.child}
+                  </ToolIcon>
+                ))}
+              </div>
+            </div>
+          </section>
 
           {/* LanguagesSection  */}
           <section className="border-t border-border/50 pt-12 px-4">
@@ -248,6 +275,7 @@ export default function StackPage() {
               </div>
             </div>
           </section>
+
           {/* ContactSection */}
           <section className="border-t border-border/50 pt-12 px-4">
             <h3 className="text-sm font-bold uppercase tracking-wider text-foreground mb-6">
@@ -450,32 +478,3 @@ const skills = [
   "Docker",
   "AWS",
 ];
-
-const ToolsSection = () => {
-  return (
-    <section className="border-t border-border/50 pt-12 px-4">
-      <div className="flex flex-col gap-6 py-10">
-        <h3 className="text-sm font-bold uppercase tracking-wider text-foreground">
-          Skills / Stack
-        </h3>
-        <div className="flex flex-wrap gap-2">
-          {skills.map((skill) => (
-            <SkillPill key={skill} skill={skill} />
-          ))}
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {tools.map((tool) => (
-            <ToolIcon
-              key={tool.name}
-              href={tool.href}
-              name={tool.name}
-              bgColorClass={tool.bgColorClass}
-            >
-              {tool.child}
-            </ToolIcon>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
