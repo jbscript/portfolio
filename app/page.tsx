@@ -1,27 +1,8 @@
 import ProductsGrid from "@/components/product-grid";
 import { Separator } from "@/components/ui/separator";
-import { getImagePath } from "@/lib/image-path";
-import { Sparkles } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
+import { Github, Mail, Globe, Dribbble, Twitter } from "lucide-react";
 
-const socialLinks = [
-  {
-    name: "Twitter",
-    href: "https://twitter.com/alyssaxuu",
-    icon: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/svgs/twitter2-1.svg",
-  },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/alyssax/",
-    icon: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/svgs/linkedin-2.svg",
-  },
-  {
-    name: "GitHub",
-    href: "https://github.com/alyssaxuu",
-    icon: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/svgs/github-3.svg",
-  },
-];
 export default function Home() {
   return (
     <main className="max-w-[1052px] mt-5 mx-auto px-6 lg:px-0">
@@ -30,23 +11,7 @@ export default function Home() {
           className="flex items-center gap-x-2"
           aria-label="Social media links"
         >
-          {socialLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`Follow Jabir on ${link.name}`}
-              className="opacity-60 transition-all duration-200 ease-in-out hover:opacity-100 hover:-translate-y-0.5"
-            >
-              <Image
-                src={getImagePath(link.icon)}
-                alt={`${link.name} logo`}
-                width={18}
-                height={18}
-              />
-            </a>
-          ))}
+          <SocialIcons />
         </nav>
       </header>
       <section className="container flex flex-col items-start text-left text-md max-w-md">
@@ -70,7 +35,7 @@ export default function Home() {
             automation platform for smarter software testing ✌.
           </p>
           <a
-            href="mailto:hi@alyssax.com"
+            href="mailto:hi@example.com"
             className="text-lg text-primary hover:text-link-hover transition-colors"
           >
             Hire me <span className="inline-block">↗</span>
@@ -111,5 +76,29 @@ export default function Home() {
         </div>
       </footer>
     </main>
+  );
+}
+
+function SocialIcons() {
+  const classes =
+    "size-4 text-muted-foreground hover:text-foreground transition-colors";
+  return (
+    <div className="flex items-center gap-3">
+      <a aria-label="Twitter" href="https://x.com" className={classes}>
+        <Twitter className="size-4" />
+      </a>
+      <a aria-label="GitHub" href="https://github.com" className={classes}>
+        <Github className="size-4" />
+      </a>
+      <a aria-label="Dribbble" href="https://dribbble.com" className={classes}>
+        <Dribbble className="size-4" />
+      </a>
+      <a aria-label="Website" href="#" className={classes}>
+        <Globe className="size-4" />
+      </a>
+      <a aria-label="Email" href="mailto:hi@example.com" className={classes}>
+        <Mail className="size-4" />
+      </a>
+    </div>
   );
 }

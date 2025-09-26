@@ -10,57 +10,52 @@ type Product = {
 
 const productsData: Product[] = [
   {
-    name: "Screenity",
+    name: "PixelForge",
     description:
-      "The free and privacy-friendly screen recorder with no limits. It has over 180K users, and was featured on Fast Company as one of the best apps of 2020.",
-    link: "https://screenity.io/",
-    linkText: "screenity.io",
-    imageUrl:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/images/screenity-2.png",
+      "An AI-powered tool to generate stunning pixel art in seconds. Featured in multiple indie dev showcases worldwide.",
+    link: "https://pixelforge.dev/",
+    linkText: "pixelforge.dev",
+    imageUrl: "https://picsum.photos/seed/pixelforge/400/250",
   },
   {
-    name: "Omni",
+    name: "TaskWhiz",
     description:
-      "The all-in-one tool to supercharge your productivity. It was featured on Fast Company, and won the Best Productivity Booster award at JsNation Amsterdam 2022.",
-    link: "https://github.com/alyssaxuu/omni",
-    linkText: "github.com/alyssaxuu/omni",
-    imageUrl:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/images/omni-5.png",
+      "A lightweight productivity app that helps you organize tasks with smart reminders and gamified streaks.",
+    link: "https://github.com/example/taskwhiz",
+    linkText: "github.com/example/taskwhiz",
+    imageUrl: "https://picsum.photos/seed/taskwhiz/400/250",
   },
   {
-    name: "Mapus",
+    name: "CollabBoard",
     description:
-      "An open source map tool with real-time collaboration, for annotating and exploring with friends on a map. It was a Product Hunt Golden Kitty Awards finalist.",
-    link: "https://github.com/alyssaxuu/mapus",
-    linkText: "github.com/alyssaxuu/mapus",
-    imageUrl:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/images/mapus-7.png",
+      "A real-time collaborative whiteboard for brainstorming with sticky notes, mind maps, and drawing tools.",
+    link: "https://collabboard.app/",
+    linkText: "collabboard.app",
+    imageUrl: "https://picsum.photos/seed/collabboard/400/250",
   },
   {
-    name: "Motionity",
+    name: "Clipster",
     description:
-      "A web-based motion graphics editor. It's a mix of After Effects and Canva, with powerful features but a simple interface.",
-    link: "https://motionity.app/",
-    linkText: "motionity.app",
-    imageUrl:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/images/motionity-10.png",
+      "The easiest way to trim, edit, and share video clips online — think of it as a pocket-sized Premiere Pro.",
+    link: "https://clipster.io/",
+    linkText: "clipster.io",
+    imageUrl: "https://picsum.photos/seed/clipster/400/250",
   },
   {
-    name: "Automation tool",
+    name: "AutoPilotX",
     description:
-      "An unreleased extension to automate the browser using simple block programming. I'm still considering releasing it at some point.",
-    link: "https://twitter.com/alyssaxuu/status/1454152829350854662",
-    linkText: "twitter.com",
-    imageUrl:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/images/wip-14.png",
+      "An experimental Chrome extension that automates repetitive browsing tasks using drag-and-drop blocks.",
+    link: "https://github.com/example/autopilotx",
+    linkText: "github.com/example/autopilotx",
+    imageUrl: "https://picsum.photos/seed/autopilotx/400/250",
   },
   {
-    name: "Play a game",
-    description: "Can you survive long enough to beat the high score?",
-    link: "https://alyssax.com/",
-    linkText: "alyssax.com",
-    imageUrl:
-      "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/images/game-1.png",
+    name: "AstroRun",
+    description:
+      "A fast-paced space adventure game where you dodge asteroids and chase the leaderboard.",
+    link: "https://astrorun.fun/",
+    linkText: "astrorun.fun",
+    imageUrl: "https://picsum.photos/seed/astrorun/400/250",
   },
 ];
 
