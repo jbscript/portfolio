@@ -5,8 +5,8 @@ export default function StackPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Header */}
-      <header className="w-full">
-        <div className="mx-auto flex h-16 w-full max-w-[680px] items-center justify-between px-4">
+      <header className="w-full ">
+        <div className="mx-auto flex h-16 w-full max-w-[680px] items-center justify-between px-4  border-l border-r border-border/50">
           <div className="flex items-center gap-2">
             <MapPin className="h-4 w-4 text-muted-foreground" />
             <p className="font-mono text-xs text-muted-foreground">
@@ -20,9 +20,9 @@ export default function StackPage() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-[680px] px-4">
+      <main className="mx-auto max-w-[680px]  border-l border-r border-border/50 ">
         {/* Hero Section */}
-        <section className="flex flex-col items-center pt-8 pb-12 text-center">
+        <section className="flex flex-col items-center pt-8 pb-12 text-center border-t border-border/50 ">
           <Image
             src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4ee7ac05-ec2c-4851-9baa-15af717f3308-mateo-cv-framer-website/assets/images/kreJQL49X52hV3lm0eho5rR13jI-1.jpg?"
             alt="Profile Image"
@@ -41,16 +41,23 @@ export default function StackPage() {
 
         <div className="flex flex-col gap-12 pb-16">
           {/* About */}
-          <section id="about" className="flex flex-col gap-6">
+          <section
+            id="about"
+            className="flex flex-col gap-6 border-t border-border/50 pt-12 px-4"
+          >
             <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">
               About
             </h3>
             <p className="text-sm text-muted-foreground leading-normal">
-              Full-stack Software Engineer with 4.5 years of experience building scalable web apps and SaaS products. Skilled in React, Next.js, FastAPI, and AI-driven automation. Passionate about solving real-world problems through clean architecture, user-focused design, and innovative solutions.
+              Full-stack Software Engineer with 4.5 years of experience building
+              scalable web apps and SaaS products. Skilled in React, Next.js,
+              FastAPI, and AI-driven automation. Passionate about solving
+              real-world problems through clean architecture, user-focused
+              design, and innovative solutions.
             </p>
           </section>
           {/* ExperienceSection  */}
-          <section>
+          <section className="border-t border-border/50 pt-12 px-4">
             <div className="pb-6">
               <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">
                 Experience
@@ -71,10 +78,22 @@ export default function StackPage() {
                     </div>
                   </div>
                   <div className="text-sm text-muted-foreground leading-normal space-y-1">
-                    <p>• Building TestGenix, an AI-powered test automation platform that generates end-to-end test cases using LLMs.</p>
-                    <p>• Developed a Chrome Extension to record and replay browser events for automated web testing.</p>
-                    <p>• Built an API testing tool (Postman alternative) with request chaining, validations, and automated workflows.</p>
-                    <p>• Designed a visual Flow Builder for testers to create, schedule, and manage test scenarios.</p>
+                    <p>
+                      • Building TestGenix, an AI-powered test automation
+                      platform that generates end-to-end test cases using LLMs.
+                    </p>
+                    <p>
+                      • Developed a Chrome Extension to record and replay
+                      browser events for automated web testing.
+                    </p>
+                    <p>
+                      • Built an API testing tool (Postman alternative) with
+                      request chaining, validations, and automated workflows.
+                    </p>
+                    <p>
+                      • Designed a visual Flow Builder for testers to create,
+                      schedule, and manage test scenarios.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -93,9 +112,21 @@ export default function StackPage() {
                     </div>
                   </div>
                   <div className="text-sm text-muted-foreground leading-normal space-y-1">
-                    <p>• Engineered a hybrid automation framework (Java + Selenium) boosted test reusability and significantly cut execution time.</p>
-                    <p>• Built React-based frontends for internal tools, streamlining workflows and improving user experience for engineering teams.</p>
-                    <p>• Played a key role in developing Poivaa, a travel application, contributing both to feature delivery and robust automated test coverage for high reliability.</p>
+                    <p>
+                      • Engineered a hybrid automation framework (Java +
+                      Selenium) boosted test reusability and significantly cut
+                      execution time.
+                    </p>
+                    <p>
+                      • Built React-based frontends for internal tools,
+                      streamlining workflows and improving user experience for
+                      engineering teams.
+                    </p>
+                    <p>
+                      • Played a key role in developing Poivaa, a travel
+                      application, contributing both to feature delivery and
+                      robust automated test coverage for high reliability.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -103,7 +134,7 @@ export default function StackPage() {
           </section>
 
           {/* EducationSection  */}
-          <section className="pt-12">
+          <section className="border-t border-border/50 pt-12 px-4">
             <div className="pt-6">
               <div className="pb-6">
                 <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">
@@ -135,7 +166,7 @@ export default function StackPage() {
           </section>
 
           {/* CertificationsSection  */}
-          <section className="pt-12">
+          <section className="border-t border-border/50 pt-12 px-4">
             <div className="pb-6">
               <div className="pb-6">
                 <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">
@@ -178,8 +209,8 @@ export default function StackPage() {
           <ToolsSection />
 
           {/* LanguagesSection  */}
-          <section>
-            <div className="pb-12">
+          <section className="border-t border-border/50 pt-12 px-4">
+            <div className="pb-6">
               <h3 className="text-section-header">LANGUAGES</h3>
               <div className="mt-8 space-y-3">
                 {[
@@ -199,7 +230,7 @@ export default function StackPage() {
             </div>
           </section>
           {/* ContactSection */}
-          <section className="pt-8">
+          <section className="border-t border-border/50 pt-12 px-4">
             <h3 className="text-sm font-bold uppercase tracking-wider text-foreground mb-6">
               CONTACT
             </h3>
@@ -403,8 +434,8 @@ const skills = [
 
 const ToolsSection = () => {
   return (
-    <section>
-      <div className="flex flex-col gap-6 py-10 pt-12">
+    <section className="border-t border-border/50 pt-12 px-4">
+      <div className="flex flex-col gap-6 py-10">
         <h3 className="text-sm font-bold uppercase tracking-wider text-foreground">
           Skills / Stack
         </h3>
