@@ -186,6 +186,13 @@ export default function StackPage() {
             <div className="flex flex-wrap gap-2">
               {resumeData.skills.map((skill) => (
                 <Badge key={skill.name} variant="secondary">
+                  <Image
+                    src={getImagePath(skill.iconUrl)}
+                    alt={`${skill.name} Icon`}
+                    width={16}
+                    height={16}
+                    className="mr-2"
+                  />
                   {skill.name}
                 </Badge>
               ))}

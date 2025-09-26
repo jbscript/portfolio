@@ -67,61 +67,85 @@
       "name": "React",
       "href": "https://react.dev/",
       "bgColorClass": "bg-blue-500",
-      "child": "R"
+      "child": "R",
+      "iconUrl": "/tools/react.svg"
     },
     {
       "name": "Next.js",
       "href": "https://nextjs.org/",
       "bgColorClass": "bg-black",
-      "child": "N"
+      "child": "N",
+      "iconUrl": "/tools/nextdotjs.svg"
     },
     {
       "name": "Python",
       "href": "https://python.org/",
       "bgColorClass": "bg-yellow-500",
-      "child": "P"
+      "child": "P",
+      "iconUrl": "/tools/python.svg"
     },
     {
       "name": "FastAPI",
       "href": "https://fastapi.tiangolo.com/",
       "bgColorClass": "bg-green-500",
-      "child": "F"
+      "child": "F",
+      "iconUrl": "/tools/fastapi.svg"
     },
     {
       "name": "Docker",
       "href": "https://docker.com/",
       "bgColorClass": "bg-blue-600",
-      "child": "D"
+      "child": "D",
+      "iconUrl": "/tools/docker.svg"
     },
     {
       "name": "AWS",
       "href": "https://aws.amazon.com/",
       "bgColorClass": "bg-orange-500",
-      "child": "A"
+      "child": "A",
+      "iconUrl": "/tools/aws.svg"
     },
     {
       "name": "PostgreSQL",
       "href": "https://postgresql.org/",
       "bgColorClass": "bg-blue-700",
-      "child": "P"
+      "child": "P",
+      "iconUrl": "/tools/postgresql.svg"
     },
     {
       "name": "MongoDB",
       "href": "https://mongodb.com/",
       "bgColorClass": "bg-green-600",
-      "child": "M"
+      "child": "M",
+      "iconUrl": "/tools/mongodb.svg"
     },
     {
       "name": "Github",
       "href": "https://github.com/jbscript",
       "bgColorClass": "bg-black",
-      "child": "G"
+      "child": "G",
+      "iconUrl": "/tools/github.svg"
     },
     {
       "name": "LangChain",
       "href": "https://langchain.com/",
       "bgColorClass": "bg-purple-600",
-      "child": "L"
+      "child": "L",
+      "iconUrl": "/tools/langchain.svg"
+    },
+    {
+      "name": "TypeScript",
+      "href": "https://typescriptlang.org/",
+      "bgColorClass": "bg-blue-600",
+      "child": "T",
+      "iconUrl": "/tools/typescript.svg"
+    },
+    {
+      "name": "Chrome Extension",
+      "href": "https://developer.chrome.com/docs/extensions/",
+      "bgColorClass": "bg-green-500",
+      "child": "C",
+      "iconUrl": "/tools/googlechrome.svg"
     }
   ],
   "languages": [
