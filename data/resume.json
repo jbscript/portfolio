@@ -63,18 +63,6 @@
     }
   ],
   "skills": [
-    "React",
-    "Next.js",
-    "TypeScript",
-    "Python",
-    "FastAPI",
-    "PostgreSQL",
-    "MongoDB",
-    "LangChain",
-    "Docker",
-    "AWS"
-  ],
-  "tools": [
     {
       "name": "React",
       "href": "https://react.dev/",

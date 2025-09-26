@@ -177,28 +177,12 @@ export default function StackPage() {
                 Skills / Stack
               </h3>
             </div>
-            <div className="flex flex-col gap-4">
-              <div className="flex flex-wrap gap-2">
-                {resumeData.skills.map((skill) => (
-                  <Badge key={skill} variant="secondary">
-                    {skill}
-                  </Badge>
-                ))}
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {resumeData.tools.map((tool) => (
-                  <ToolIcon
-                    key={tool.name}
-                    href={tool.href}
-                    name={tool.name}
-                    bgColorClass={tool.bgColorClass}
-                  >
-                    <span className="font-semibold text-lg text-white">
-                      {tool.child}
-                    </span>
-                  </ToolIcon>
-                ))}
-              </div>
+            <div className="flex flex-wrap gap-2">
+              {resumeData.skills.map((skill) => (
+                <Badge key={skill.name} variant="secondary">
+                  {skill.name}
+                </Badge>
+              ))}
             </div>
           </section>
 
