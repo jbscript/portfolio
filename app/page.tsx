@@ -2,6 +2,7 @@ import ProductsGrid from "@/components/product-grid";
 import { Separator } from "@/components/ui/separator";
 import Image from "next/image";
 import { Github, Mail, Globe, Dribbble, Twitter } from "lucide-react";
+import { getImagePath } from "@/lib/image-path";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       </header>
       <section className="container flex flex-col items-start text-left text-md max-w-md">
         <Image
-          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/svgs/logo-8.svg"
+          src={getImagePath("logo.svg")}
           alt="Jabir Logo"
           width={34}
           height={34}
