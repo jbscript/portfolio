@@ -24,7 +24,7 @@ const socialLinks = [
 ];
 export default function Home() {
   return (
-    <main className="max-w-[1052px] mt-5 mx-auto">
+    <main className="max-w-[1052px] mt-5 mx-auto p-6 sm:p-6 ">
       <header className="flex justify-center mb-[50px]">
         <nav
           className="flex items-center gap-x-2"
@@ -58,12 +58,12 @@ export default function Home() {
           className="self-start"
         />
         <div className="flex flex-col text-[#9b9c9c] items-start text-left text-[17px] font-medium gap-y-4 max-w-3xl md:max-w-4xl my-3">
-          <h1 className="tracking-tight">
+          <h1 className="">
             I'm <span className="text-white">Jabir </span>, a designer and
             developer building digital products.
           </h1>
 
-          <p className="tracking-tigh">
+          <p className="tracking">
             As a 🚀 I’ve built multiple products, freelanced, worked at
             startups, and now I’m building
             <span className="text-white"> AssureQA</span>— an AI-powered
