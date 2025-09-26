@@ -67,9 +67,15 @@ export default function StackPage() {
               {/* ASSUREQA EXPERIENCE */}
               <div className="block">
                 <div className="flex flex-col gap-2">
-                  <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
-                      <span className="text-white text-sm font-bold">A</span>
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded flex items-center justify-center">
+                      <Image
+                        src="/assure-qa.png"
+                        alt="AssureQA Logo"
+                        width={40}
+                        height={40}
+                        className="rounded"
+                      />
                     </div>
                     <div className="flex flex-col">
                       <h4 className="text-base font-semibold text-foreground">
@@ -82,7 +88,7 @@ export default function StackPage() {
                       </div>
                     </div>
                   </div>
-                  <div className="text-sm text-muted-foreground leading-normal space-y-1 ml-11">
+                  <div className="text-sm text-muted-foreground leading-normal space-y-1 ml-12">
                     <p>
                       • Building TestGenix, an AI-powered test automation
                       platform that generates end-to-end test cases using LLMs.
@@ -106,9 +112,15 @@ export default function StackPage() {
               {/* MAX STACK LABS EXPERIENCE */}
               <div className="block">
                 <div className="flex flex-col gap-2">
-                  <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 bg-purple-600 rounded flex items-center justify-center">
-                      <span className="text-white text-sm font-bold">M</span>
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 rounded flex items-center justify-center">
+                      <Image
+                        src="/msl.png"
+                        alt="Max Stack Labs Logo"
+                        width={40}
+                        height={40}
+                        className="rounded"
+                      />
                     </div>
                     <div className="flex flex-col">
                       <h4 className="text-base font-semibold text-foreground">
@@ -121,7 +133,7 @@ export default function StackPage() {
                       </div>
                     </div>
                   </div>
-                  <div className="text-sm text-muted-foreground leading-normal space-y-1 ml-11">
+                  <div className="text-sm text-muted-foreground leading-normal space-y-1 ml-12">
                     <p>
                       • Engineered a hybrid automation framework (Java +
                       Selenium) boosted test reusability and significantly cut
