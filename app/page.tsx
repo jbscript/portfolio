@@ -24,7 +24,7 @@ const socialLinks = [
 ];
 export default function Home() {
   return (
-    <main className="max-w-[1052px] mt-5 mx-auto">
+    <main className="max-w-[1052px] mt-5 mx-auto px-4 md:px-0">
       <header className="flex justify-center mb-[50px]">
         <nav
           className="flex items-center gap-x-2"
