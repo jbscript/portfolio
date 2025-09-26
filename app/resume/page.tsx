@@ -1,4 +1,4 @@
-import { ArrowRight, Download, MapPin } from "lucide-react";
+import { ArrowRight, ExternalLink, MapPin } from "lucide-react";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import resumeData from "@/data/resume.json";
@@ -22,7 +22,7 @@ export default function StackPage() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-3 py-1.5 text-xs font-medium text-foreground bg-background border border-border/50 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
           >
-            <Download className="h-3 w-3" />
+            <ExternalLink className="h-3 w-3" />
             Download Resume
           </a>
         </div>
