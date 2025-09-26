@@ -15,8 +15,7 @@ const productsData: Product[] = [
       "A powerful saas boilerplate to kickstart your next project effortlessly.",
     link: "https://github.com/jbscript/LaunchSaaS",
     linkText: "github.com/jbscript/LaunchSaaS",
-    imageUrl:
-      "https://private-user-images.githubusercontent.com/16812389/427528632-ca9228b6-865b-446d-8dc1-fab91b2e99bb.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTg5MDQ5NDEsIm5iZiI6MTc1ODkwNDY0MSwicGF0aCI6Ii8xNjgxMjM4OS80Mjc1Mjg2MzItY2E5MjI4YjYtODY1Yi00NDZkLThkYzEtZmFiOTFiMmU5OWJiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTI2VDE2MzcyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRiZWI2NGVjMzFmNjkwODEyMjVhOTVlOGI5ODA5ZWM2YmEwMTg3YTNjOTAzMDFlMTQ5ZTc2NmVlYzhiNjMwYWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._-b71xtWpx-y4Q3EnDu6A2avLqeol-ydDgBR3eVjSZk",
+    imageUrl: "/launchsaas.png",
   },
 ];
 
