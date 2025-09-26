@@ -4,6 +4,7 @@ import { Github, Mail, Globe, Dribbble, Twitter } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { getImagePath } from "@/lib/image-path";
 import Navigation from "@/components/navigation";
+import Link from "next/link";
 
 export default function Home() {
   const classes =
@@ -17,11 +18,7 @@ export default function Home() {
           aria-label="Social media links"
         >
           <div className="flex items-center gap-3">
-            <a
-              aria-label="Twitter"
-              href="https://x.com"
-              className={classes}
-            >
+            <a aria-label="Twitter" href="https://x.com" className={classes}>
               <Twitter className="size-4" />
             </a>
             <a
@@ -62,26 +59,25 @@ export default function Home() {
         />
 
         <div className="flex flex-col text-[#9b9c9c] items-start text-left text-base font-medium gap-y-3 max-w-3xl md:max-w-4xl my-3">
-          <h1 className="text-4xl font-bold text-foreground">
-            Jabir Jaleel
-          </h1>
+          <h1 className="text-4xl font-bold text-foreground">Jabir Jaleel</h1>
           <h2 className="text-lg font-normal text-muted-foreground">
             I&apos;m a designer and developer building digital products.
             <p className="mt-2">
-              I&apos;ve built multiple products, freelanced, worked at
-              startups, and now I&apos;m building
+              I&apos;ve built multiple products, freelanced, worked at startups,
+              and now I&apos;m building
               <span className="text-primary-foreground"> AssureQA</span>— an
-              AI-powered automation platform for smarter software testing
-              ✌.
+              AI-powered automation platform for smarter software testing ✌.
             </p>
           </h2>
 
-          <a
-            href="mailto:hi@example.com"
+          <Link
+            href="/resume"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-lg text-primary hover:text-link-hover transition-colors"
           >
-            Hire me <span className="inline-block">↗</span>
-          </a>
+            Resume <span className="inline-block">↗</span>
+          </Link>
         </div>
       </section>
 

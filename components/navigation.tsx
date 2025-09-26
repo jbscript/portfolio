@@ -17,16 +17,6 @@ export default function Navigation() {
       >
         Products
       </Link>
-      <Link
-        href="/stack"
-        className={`flex items-center gap-2 transition-colors duration-200 ease-in-out ${
-          pathname === "/stack"
-            ? "text-primary-foreground"
-            : "text-gray-500 hover:text-primary-foreground"
-        }`}
-      >
-        Stack
-      </Link>
     </div>
   );
 }
