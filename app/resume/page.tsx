@@ -32,7 +32,7 @@ export default function StackPage() {
         {/* Hero Section */}
         <section className="flex flex-col items-center pt-8 pb-12 text-center border-t border-border/50 ">
           <Image
-            src={resumeData.profile.image}
+            src={getImagePath(resumeData.profile.image)}
             alt="Profile Image"
             width={80}
             height={80}
@@ -74,7 +74,7 @@ export default function StackPage() {
                     <div className="flex items-center gap-2">
                       <div className="w-8 h-8 flex items-center justify-center">
                         <Image
-                          src={exp.logo}
+                          src={getImagePath(exp.logo)}
                           alt={`${exp.company} Logo`}
                           width={24}
                           height={24}
