@@ -116,7 +116,13 @@ export default function RootLayout({
             <hr className="border-border" />
             <div className="flex items-center justify-between py-8">
               <div className="text-sm font-normal">Jabir © 2025</div>
-              <div className="text-base">🚀</div>
+              <Image
+                src={getImagePath("/jab.png")}
+                alt="Jabir Logo"
+                width={18}
+                height={18}
+                className="self-start"
+              />
             </div>
           </footer>
         </main>
