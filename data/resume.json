@@ -1,0 +1,150 @@
+{
+  "profile": {
+    "name": "Jabir Jaleel",
+    "title": "Senior Software Engineer at AssureQA",
+    "location": "Trivandrum, Kerala",
+    "about": "Full-stack Software Engineer with 4.5 years of experience building scalable web apps and SaaS products. Skilled in React, Next.js, FastAPI, and AI-driven automation. Passionate about solving real-world problems through clean architecture, user-focused design, and innovative solutions.",
+    "image": "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4ee7ac05-ec2c-4851-9baa-15af717f3308-mateo-cv-framer-website/assets/images/kreJQL49X52hV3lm0eho5rR13jI-1.jpg?"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "AssureQA",
+      "period": "2022-Present",
+      "logo": "/assureqa.png",
+      "achievements": [
+        "Building TestGenix, an AI-powered test automation platform that generates end-to-end test cases using LLMs.",
+        "Developed a Chrome Extension to record and replay browser events for automated web testing.",
+        "Built an API testing tool (Postman alternative) with request chaining, validations, and automated workflows.",
+        "Designed a visual Flow Builder for testers to create, schedule, and manage test scenarios."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Max Stack Labs Technologies",
+      "period": "2020-2022",
+      "logo": "/msl.png",
+      "achievements": [
+        "Engineered a hybrid automation framework (Java + Selenium) boosted test reusability and significantly cut execution time.",
+        "Built React-based frontends for internal tools, streamlining workflows and improving user experience for engineering teams.",
+        "Played a key role in developing Poivaa, a travel application, contributing both to feature delivery and robust automated test coverage for high reliability."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "APJ Abdul Kalam Technological University",
+      "years": "2016-2020",
+      "description": "Graduated with a GPA of 6.99/10. Focused on software engineering, algorithms, and web development fundamentals that provided the foundation for my career in full-stack development."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services (AWS)",
+      "year": "2024",
+      "description": "Foundational certification covering AWS cloud concepts, services, security, architecture, pricing, and support to validate cloud fluency and foundational AWS knowledge.",
+      "url": "https://aws.amazon.com/certification/"
+    },
+    {
+      "title": "Foundation: Introduction to LangGraph",
+      "issuer": "LangChain Academy",
+      "year": "2024",
+      "description": "Comprehensive course on building AI agents and workflows using LangGraph, focusing on multi-agent systems, state management, and complex AI application development.",
+      "url": "https://academy.langchain.com/"
+    },
+    {
+      "title": "Python",
+      "issuer": "Kaggle",
+      "year": "2023",
+      "description": "Certification demonstrating proficiency in Python programming, data manipulation, and machine learning fundamentals through practical exercises and projects.",
+      "url": "https://www.kaggle.com/learn/python"
+    }
+  ],
+  "skills": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "MongoDB",
+    "LangChain",
+    "Docker",
+    "AWS"
+  ],
+  "tools": [
+    {
+      "name": "React",
+      "href": "https://react.dev/",
+      "bgColorClass": "bg-blue-500",
+      "child": "R"
+    },
+    {
+      "name": "Next.js",
+      "href": "https://nextjs.org/",
+      "bgColorClass": "bg-black",
+      "child": "N"
+    },
+    {
+      "name": "Python",
+      "href": "https://python.org/",
+      "bgColorClass": "bg-yellow-500",
+      "child": "P"
+    },
+    {
+      "name": "FastAPI",
+      "href": "https://fastapi.tiangolo.com/",
+      "bgColorClass": "bg-green-500",
+      "child": "F"
+    },
+    {
+      "name": "Docker",
+      "href": "https://docker.com/",
+      "bgColorClass": "bg-blue-600",
+      "child": "D"
+    },
+    {
+      "name": "AWS",
+      "href": "https://aws.amazon.com/",
+      "bgColorClass": "bg-orange-500",
+      "child": "A"
+    },
+    {
+      "name": "PostgreSQL",
+      "href": "https://postgresql.org/",
+      "bgColorClass": "bg-blue-700",
+      "child": "P"
+    },
+    {
+      "name": "MongoDB",
+      "href": "https://mongodb.com/",
+      "bgColorClass": "bg-green-600",
+      "child": "M"
+    },
+    {
+      "name": "Github",
+      "href": "https://github.com/jbscript",
+      "bgColorClass": "bg-black",
+      "child": "G"
+    },
+    {
+      "name": "LangChain",
+      "href": "https://langchain.com/",
+      "bgColorClass": "bg-purple-600",
+      "child": "L"
+    }
+  ],
+  "languages": [
+    { "name": "English", "proficiency": "Fluent" },
+    { "name": "Malayalam", "proficiency": "Native" },
+    { "name": "Hindi", "proficiency": "Conversational" }
+  ],
+  "contact": {
+    "email": "jabirjaleel97@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/jbscript",
+    "github": "https://github.com/jbscript",
+    "phone": "+91 8075156814"
+  }
+}
