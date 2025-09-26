@@ -85,17 +85,21 @@ export default function RootLayout({
               height={34}
               className="self-start"
             />
-            <div className="flex flex-col text-[#9b9c9c] items-start text-left text-base font-medium gap-y-4 max-w-3xl md:max-w-4xl my-3">
-              <h1>
-                I&apos;m <span className="text-primary-foreground">Jabir </span>
-                , a designer and developer building digital products.
+            <div className="flex flex-col text-[#9b9c9c] items-start text-left text-base font-medium gap-y-3 max-w-3xl md:max-w-4xl my-3">
+              <h1 className="text-4xl font-bold text-foreground">
+                Jabir Jaleel
               </h1>
-              <p>
-                As a 🚀 I&apos;ve built multiple products, freelanced, worked at
-                startups, and now I&apos;m building
-                <span className="text-primary-foreground"> AssureQA</span>— an
-                AI-powered automation platform for smarter software testing ✌.
-              </p>
+              <h2 className="text-lg font-normal text-muted-foreground">
+                I&apos;m a designer and developer building digital products.
+                <p className="mt-2">
+                  As a 🚀 I&apos;ve built multiple products, freelanced, worked
+                  at startups, and now I&apos;m building
+                  <span className="text-primary-foreground"> AssureQA</span>— an
+                  AI-powered automation platform for smarter software testing
+                  ✌.
+                </p>
+              </h2>
+
               <a
                 href="mailto:hi@example.com"
                 className="text-lg text-primary hover:text-link-hover transition-colors"
