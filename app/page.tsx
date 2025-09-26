@@ -1,104 +1,123 @@
-import Image from "next/image";
+import ProductsGrid from "@/components/product-grid";
 import { getImagePath } from "@/lib/image-path";
+import { Sparkles } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
+const socialLinks = [
+  {
+    name: "Twitter",
+    href: "https://twitter.com/alyssaxuu",
+    icon: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/svgs/twitter2-1.svg",
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/alyssax/",
+    icon: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/svgs/linkedin-2.svg",
+  },
+  {
+    name: "GitHub",
+    href: "https://github.com/alyssaxuu",
+    icon: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/svgs/github-3.svg",
+  },
+];
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src={getImagePath("/next.svg")}
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main className="min-h-screen">
+      <div className="max-w-[1200px] mx-auto ">
+        <header className="flex justify-center">
+          <nav
+            className="flex items-center gap-x-2"
+            aria-label="Social media links"
+          >
+            {socialLinks.map((link) => (
+              <a
+                key={link.name}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Follow Alyssa X on ${link.name}`}
+                className="opacity-60 transition-all duration-200 ease-in-out hover:opacity-100 hover:-translate-y-0.5"
+              >
+                <Image
+                  src={getImagePath(link.icon)}
+                  alt={`${link.name} logo`}
+                  width={24}
+                  height={24}
+                />
+              </a>
+            ))}
+          </nav>
+        </header>
+        <section className="container flex flex-col items-start text-left">
+          <Image
+            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/svgs/logo-8.svg"
+            alt="Alyssa X Logo"
+            width={34}
+            height={34}
+            className="self-start mb-8"
+          />
+          <div className="flex flex-col text-[#9b9c9c] items-start text-left gap-y-6 max-w-3xl md:max-w-4xl">
+            <h1 className="font-normal  leading-tight tracking-tight">
+              I'm <span className="text-white">Alyssa X</span>, a designer,
+              developer, and serial maker.
+            </h1>
+            <p className="leading-relaxed font-normal">
+              As a 🦄 I've built and shipped{" "}
+              <span className="font-medium text-white">12+ products</span> (with
+              over 160K users), been 2 times a Product Hunt{" "}
+              <span className="font-medium text-white">Maker of The Year</span>{" "}
+              finalist, and much more ✌
+            </p>
+            <a
+              href="mailto:hi@alyssax.com"
+              className="text-lg font-medium text-primary hover:text-link-hover transition-colors"
+            >
+              Hire me <span className="inline-block">↗</span>
+            </a>
+          </div>
+        </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src={getImagePath("/vercel.svg")}
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <div className="flex justify-center">
+          <div className="flex items-center gap-5">
+            <div className="relative text-xl font-medium text-white cursor-pointer">
+              Products
+              <span className="absolute left-0 -bottom-[5px] h-[2px] w-full bg-white" />
+            </div>
+            <Link
+              href="/stack"
+              className="flex items-center gap-2 text-xl font-medium text-gray-500 transition-colors duration-200 ease-in-out hover:text-white"
+            >
+              Stack
+              <Sparkles className="h-4 w-4 text-primary" />
+            </Link>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src={getImagePath("/file.svg")}
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src={getImagePath("/window.svg")}
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src={getImagePath("/globe.svg")}
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        <ProductsGrid />
+        {/* 
+        
+     
+        
+      
+        
+        <section className="py-20">
+          <WorkExperienceSection />
+        </section>
+        
+        <section className="py-20">
+          <NewsletterSection />
+        </section>
+         */}
+        <footer className="w-full mt-16">
+          <hr className="border-border" />
+          <div className="flex items-center justify-between py-8">
+            <div className="text-sm font-normal text-muted-white">
+              Alyssa X © 2025
+            </div>
+            <div className="text-base">👻</div>
+          </div>
+        </footer>
+      </div>
+    </main>
   );
 }
