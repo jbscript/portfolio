@@ -41,10 +41,7 @@ export default function StackPage() {
 
         <div className="flex flex-col gap-12 pb-16">
           {/* About */}
-          <section
-            id="about"
-            className="flex flex-col gap-6 border-t border-border/50 pt-12 px-4"
-          >
+          <section className="flex flex-col gap-6 border-t border-border/50 pt-12 px-4">
             <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">
               About
             </h3>
