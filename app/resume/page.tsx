@@ -68,7 +68,7 @@ export default function StackPage() {
               <div className="block">
                 <div className="flex flex-col gap-2">
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                    <div className="w-8 h-8 flex items-center justify-center">
                       <Image
                         src="/assureqa.png"
                         alt="AssureQA Logo"
@@ -113,7 +113,7 @@ export default function StackPage() {
               <div className="block">
                 <div className="flex flex-col gap-2">
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                    <div className="w-8 h-8 flex items-center justify-center">
                       <Image
                         src="/msl.png"
                         alt="Max Stack Labs Logo"
