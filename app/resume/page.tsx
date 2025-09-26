@@ -67,14 +67,19 @@ export default function StackPage() {
               {/* ASSUREQA EXPERIENCE */}
               <div className="block">
                 <div className="flex flex-col gap-2">
-                  <div className="flex flex-col gap-1">
-                    <h4 className="text-base font-semibold text-foreground">
-                      Senior Software Engineer
-                    </h4>
-                    <div className="flex items-center gap-1 text-sm text-muted-foreground">
-                      <p>AssureQA</p>
-                      <span>·</span>
-                      <p>2022-Present</p>
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
+                      <span className="text-white text-sm font-bold">A</span>
+                    </div>
+                    <div className="flex flex-col">
+                      <h4 className="text-base font-semibold text-foreground">
+                        Senior Software Engineer
+                      </h4>
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <p>AssureQA</p>
+                        <span>·</span>
+                        <p>2022-Present</p>
+                      </div>
                     </div>
                   </div>
                   <div className="text-sm text-muted-foreground leading-normal space-y-1">
@@ -101,14 +106,19 @@ export default function StackPage() {
               {/* MAX STACK LABS EXPERIENCE */}
               <div className="block">
                 <div className="flex flex-col gap-2">
-                  <div className="flex flex-col gap-1">
-                    <h4 className="text-base font-semibold text-foreground">
-                      Software Engineer
-                    </h4>
-                    <div className="flex items-center gap-1 text-sm text-muted-foreground">
-                      <p>Max Stack Labs Technologies</p>
-                      <span>·</span>
-                      <p>2020-2022</p>
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 bg-purple-600 rounded flex items-center justify-center">
+                      <span className="text-white text-sm font-bold">M</span>
+                    </div>
+                    <div className="flex flex-col">
+                      <h4 className="text-base font-semibold text-foreground">
+                        Software Engineer
+                      </h4>
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <p>Max Stack Labs Technologies</p>
+                        <span>·</span>
+                        <p>2020-2022</p>
+                      </div>
                     </div>
                   </div>
                   <div className="text-sm text-muted-foreground leading-normal space-y-1">
