@@ -36,7 +36,7 @@ export default function Home() {
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label={`Follow Alyssa X on ${link.name}`}
+              aria-label={`Follow Jabir on ${link.name}`}
               className="opacity-60 transition-all duration-200 ease-in-out hover:opacity-100 hover:-translate-y-0.5"
             >
               <Image
@@ -52,7 +52,7 @@ export default function Home() {
       <section className="container flex flex-col items-start text-left text-md max-w-md">
         <Image
           src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/9fd2bb1f-ca7e-41ff-8cf3-8f6f98cb5045-alyssax-com/assets/svgs/logo-8.svg"
-          alt="Alyssa X Logo"
+          alt="Jabir Logo"
           width={34}
           height={34}
           className="self-start"
@@ -107,7 +107,7 @@ export default function Home() {
         <hr className="border-border" />
         <div className="flex items-center justify-between py-8">
           <div className="text-sm font-normal text-muted-white">
-            Alyssa X © 2025
+            Jabir © 2025
           </div>
           <div className="text-base">👻</div>
         </div>
