@@ -25,7 +25,7 @@ export default function Home() {
         />
         <div className="flex flex-col text-[#9b9c9c] items-start text-left text-base font-medium gap-y-4 max-w-3xl md:max-w-4xl my-3">
           <h1 className="">
-            I'm <span className="text-white">Jabir </span>, a designer and
+            I&apos;m <span className="text-white">Jabir </span>, a designer and
             developer building digital products.
           </h1>
 
