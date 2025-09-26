@@ -10,7 +10,7 @@ export default function StackPage() {
           <div className="flex items-center gap-2">
             <MapPin className="h-4 w-4 text-muted-foreground" />
             <p className="font-mono text-xs text-muted-foreground">
-              Barcelona, Spain
+              Trivandrum, Kerala
             </p>
           </div>
           <div className="flex items-center gap-2">
@@ -32,9 +32,9 @@ export default function StackPage() {
             priority
           />
           <div className="mt-6">
-            <h1 className="text-4xl font-bold text-foreground">Mateo Rivas</h1>
+            <h1 className="text-4xl font-bold text-foreground">Jabir Jaleel</h1>
             <h2 className="mt-2 text-lg font-normal text-muted-foreground">
-              Design Engineer at Typeform
+              Senior Software Engineer at AssureQA
             </h2>
           </div>
         </section>
@@ -46,11 +46,7 @@ export default function StackPage() {
               About
             </h3>
             <p className="text-sm text-muted-foreground leading-normal">
-              I’m a Design Engineer focused on crafting meaningful digital
-              experiences where design meets code. With a strong front-end
-              development and UX design background, I build scalable UI systems
-              and contribute to user-centered products from concept to
-              deployment.
+              Full-stack Software Engineer with 4.5 years of experience building scalable web apps and SaaS products. Skilled in React, Next.js, FastAPI, and AI-driven automation. Passionate about solving real-world problems through clean architecture, user-focused design, and innovative solutions.
             </p>
           </section>
           {/* ExperienceSection  */}
@@ -60,86 +56,67 @@ export default function StackPage() {
               <h3 className="text-section-header">Experience</h3>
             </div>
 
-            {/* TYPEFORM EXPERIENCE GROUP */}
+            {/* ASSUREQA EXPERIENCE GROUP */}
             <div className="flex gap-4">
               {/* Logo */}
-              <div className="w-10 h-10 flex-shrink-0">
-                <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4ee7ac05-ec2c-4851-9baa-15af717f3308-mateo-cv-framer-website/assets/icons/kmS22jhgzkBTCjOUczQiXifIyM-1.png?"
-                  alt="Typeform logo"
-                  width={40}
-                  height={40}
-                  className="rounded-full object-cover"
-                />
+              <div className="w-10 h-10 flex-shrink-0 bg-blue-600 rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-lg">A</span>
               </div>
 
-              {/* Positions */}
-              <div className="flex flex-grow flex-col gap-6">
-                {/* Design Engineer */}
+              {/* Position */}
+              <div className="flex-grow">
                 <div>
-                  <h4 className="text-job-title">Design Engineer</h4>
+                  <h4 className="text-job-title">Senior Software Engineer</h4>
                   <div className="flex items-center gap-1 text-company-date mt-1">
-                    <p className="uppercase">TYPEFORM</p>
+                    <p className="uppercase">ASSUREQA</p>
                     <span>·</span>
-                    <p>2024-NOW</p>
-                  </div>
-                  <p className="text-body mt-2">
-                    Spearheaded the revamp of Typeform’s Design System, working
-                    closely with both design and engineering teams.
-                  </p>
-                </div>
-
-                {/* Frontend Developer */}
-                <div>
-                  <h4 className="text-job-title">Frontend Developer</h4>
-                  <div className="flex items-center gap-1 text-company-date mt-1">
-                    <p>Typeform</p>
-                    <span>·</span>
-                    <p>2022-2024</p>
+                    <p>2022-PRESENT</p>
                   </div>
                   <ul className="text-body mt-2 list-disc pl-5 space-y-1">
                     <li>
-                      Introduced a token-based styling architecture integrated
-                      with Figma and Storybook.
+                      Building TestGenix, an AI-powered test automation platform that generates end-to-end test cases using LLMs.
                     </li>
                     <li>
-                      Collaborated with product squads to deliver high-impact
-                      user experiences across web platforms.
+                      Developed a Chrome Extension to record and replay browser events for automated web testing.
+                    </li>
+                    <li>
+                      Built an API testing tool (Postman alternative) with request chaining, validations, and automated workflows.
+                    </li>
+                    <li>
+                      Designed a visual Flow Builder for testers to create, schedule, and manage test scenarios.
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
 
-            {/* SPOTIFY EXPERIENCE GROUP */}
+            {/* MAX STACK LABS EXPERIENCE GROUP */}
             <div className="flex gap-4">
               {/* Logo */}
-              <div className="w-10 h-10 flex-shrink-0">
-                <Image
-                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/4ee7ac05-ec2c-4851-9baa-15af717f3308-mateo-cv-framer-website/assets/icons/StxJ2mhq4FmFFJDdOXwHrapvSPA-2.png?"
-                  alt="Spotify logo"
-                  width={40}
-                  height={40}
-                  className="rounded-full object-cover"
-                />
+              <div className="w-10 h-10 flex-shrink-0 bg-green-600 rounded-full flex items-center justify-center">
+                <span className="text-white font-bold text-lg">M</span>
               </div>
 
               {/* Position */}
               <div className="flex-grow">
                 <div>
-                  <h4 className="text-job-title">Frontend Intern</h4>
+                  <h4 className="text-job-title">Software Engineer</h4>
                   <div className="flex items-center gap-1 text-company-date mt-1">
-                    <p>Spotify</p>
+                    <p>Max Stack Labs Technologies</p>
                     <span>·</span>
-                    <p>2021-2022</p>
+                    <p>2020-2022</p>
                   </div>
-                  <p className="text-body mt-2">
-                    Joined the Premium team as a frontend intern, supporting UI
-                    development with React and CSS. Collaborated with designers
-                    to implement responsive components and participated in
-                    accessibility testing. This was my first hands-on experience
-                    bridging design and code in a global tech environment.
-                  </p>
+                  <ul className="text-body mt-2 list-disc pl-5 space-y-1">
+                    <li>
+                      Engineered a hybrid automation framework (Java + Selenium) boosted test reusability and significantly cut execution time.
+                    </li>
+                    <li>
+                      Built React-based frontends for internal tools, streamlining workflows and improving user experience for engineering teams.
+                    </li>
+                    <li>
+                      Played a key role in developing Poivaa, a travel application, contributing both to feature delivery and robust automated test coverage for high reliability.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -216,8 +193,9 @@ export default function StackPage() {
               <h3 className="text-section-header">LANGUAGES</h3>
               <div className="mt-8 space-y-3">
                 {[
-                  { name: "Spanish", proficiency: "Native" },
                   { name: "English", proficiency: "Fluent" },
+                  { name: "Malayalam", proficiency: "Native" },
+                  { name: "Hindi", proficiency: "Conversational" },
                 ].map((lang) => (
                   <div
                     key={lang.name}
@@ -239,32 +217,41 @@ export default function StackPage() {
               <div className="flex justify-between items-center">
                 <p className="text-sm text-muted-foreground">Email</p>
                 <a
-                  href="mailto:antonio96perez@gmail.com"
+                  href="mailto:jabirjaleel97@gmail.com"
                   className="text-sm text-foreground hover:underline"
                 >
-                  mateorivas@email.com
+                  jabirjaleel97@gmail.com
                 </a>
               </div>
               <div className="flex justify-between items-center">
                 <p className="text-sm text-muted-foreground">LinkedIn</p>
                 <a
-                  href="https://www.linkedin.com/in/antonioperez96/"
+                  href="https://www.linkedin.com/in/jbscript"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-foreground hover:underline"
                 >
-                  /in/mateorivas
+                  /in/jbscript
                 </a>
               </div>
               <div className="flex justify-between items-center">
-                <p className="text-sm text-muted-foreground">X/Twitter</p>
+                <p className="text-sm text-muted-foreground">GitHub</p>
                 <a
-                  href="https://x.com/antperez_design"
+                  href="https://github.com/jbscript"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-foreground hover:underline"
                 >
-                  @mateorivas
+                  github.com/jbscript
+                </a>
+              </div>
+              <div className="flex justify-between items-center">
+                <p className="text-sm text-muted-foreground">Phone</p>
+                <a
+                  href="tel:+918075156814"
+                  className="text-sm text-foreground hover:underline"
+                >
+                  +91 8075156814
                 </a>
               </div>
             </div>
@@ -277,18 +264,11 @@ export default function StackPage() {
 
 const educationData = [
   {
-    degree: "Postgraduate in User Experience Design",
-    institution: "Elisava",
-    years: "2020-2021",
-    description:
-      "Specialized in UX strategy, user research, and prototyping. The program deepened my ability to design user-centered products and aligned perfectly with my transition into frontend and design engineering roles.",
-  },
-  {
-    degree: "Bachelor's Degree in Multimedia Design",
-    institution: "Universitat Ramon Llull",
+    degree: "Bachelor of Science in Computer Science",
+    institution: "APJ Abdul Kalam Technological University",
     years: "2016-2020",
     description:
-      "Focused on interaction design, web development, and digital interfaces. This program gave me the foundation to understand both the visual and technical aspects of digital products.",
+      "Graduated with a GPA of 6.99/10. Focused on software engineering, algorithms, and web development fundamentals that provided the foundation for my career in full-stack development.",
   },
 ];
 
@@ -302,20 +282,28 @@ interface Certification {
 
 const certificationsData: Certification[] = [
   {
-    title: "Advanced Front-End Web Development with React",
-    issuer: "Coursera",
-    year: "2025",
-    description:
-      "An in-depth certification covering React 18+. Next.js, TypeScript, GraphQL, performance optimizatio, accessibility standards (WCAG 2.2), and Core Web Vitals for production-ready interfaces.",
-    url: "https://www.coursera.org/",
-  },
-  {
-    title: "UX Design for Accessibility",
-    issuer: "Interaction Design Foundation",
+    title: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services (AWS)",
     year: "2024",
     description:
-      "Specialized course on designing inclusive digital experiences, focusing on WCAG compliance, semantic structure, keyboard navigation, screen reader testing, and inclusive UX research methodologies.",
-    url: "https://www.coursera.org/",
+      "Foundational certification covering AWS cloud concepts, services, security, architecture, pricing, and support to validate cloud fluency and foundational AWS knowledge.",
+    url: "https://aws.amazon.com/certification/",
+  },
+  {
+    title: "Foundation: Introduction to LangGraph",
+    issuer: "LangChain Academy",
+    year: "2024",
+    description:
+      "Comprehensive course on building AI agents and workflows using LangGraph, focusing on multi-agent systems, state management, and complex AI application development.",
+    url: "https://academy.langchain.com/",
+  },
+  {
+    title: "Python",
+    issuer: "Kaggle",
+    year: "2023",
+    description:
+      "Certification demonstrating proficiency in Python programming, data manipulation, and machine learning fundamentals through practical exercises and projects.",
+    url: "https://www.kaggle.com/learn/python",
   },
 ];
 
@@ -349,74 +337,78 @@ const ToolIcon = ({
 
 const tools = [
   {
-    name: "Framer",
-    href: "https://www.framer.com/",
-    bgColorClass: "bg-black",
-    child: <span className="font-semibold text-lg text-white">F</span>,
-  },
-  {
-    name: "Figma",
-    href: "https://figma.com/",
-    bgColorClass: "bg-pink-500",
-    child: <span className="font-semibold text-lg text-white">f</span>,
-  },
-  {
-    name: "Arc",
-    href: "http://arc.net/",
-    bgColorClass: "bg-purple-500",
-    child: <span className="font-semibold text-lg text-white">A</span>,
-  },
-  {
-    name: "Raycast",
-    href: "http://raycast.com/",
-    bgColorClass: "bg-red-500",
+    name: "React",
+    href: "https://react.dev/",
+    bgColorClass: "bg-blue-500",
     child: <span className="font-semibold text-lg text-white">R</span>,
   },
   {
-    name: "Cursor",
-    href: "https://www.cursor.com/",
+    name: "Next.js",
+    href: "https://nextjs.org/",
     bgColorClass: "bg-black",
-    child: <span className="font-semibold text-lg text-white">C</span>,
+    child: <span className="font-semibold text-lg text-white">N</span>,
   },
   {
-    name: "ChatGPT",
-    href: "https://openai.com/",
-    bgColorClass: "bg-black",
-    child: <span className="font-semibold text-lg text-white">G</span>,
+    name: "Python",
+    href: "https://python.org/",
+    bgColorClass: "bg-yellow-500",
+    child: <span className="font-semibold text-lg text-black">P</span>,
+  },
+  {
+    name: "FastAPI",
+    href: "https://fastapi.tiangolo.com/",
+    bgColorClass: "bg-green-500",
+    child: <span className="font-semibold text-lg text-white">F</span>,
+  },
+  {
+    name: "Docker",
+    href: "https://docker.com/",
+    bgColorClass: "bg-blue-600",
+    child: <span className="font-semibold text-lg text-white">D</span>,
+  },
+  {
+    name: "AWS",
+    href: "https://aws.amazon.com/",
+    bgColorClass: "bg-orange-500",
+    child: <span className="font-semibold text-lg text-white">A</span>,
+  },
+  {
+    name: "PostgreSQL",
+    href: "https://postgresql.org/",
+    bgColorClass: "bg-blue-700",
+    child: <span className="font-semibold text-lg text-white">P</span>,
+  },
+  {
+    name: "MongoDB",
+    href: "https://mongodb.com/",
+    bgColorClass: "bg-green-600",
+    child: <span className="font-semibold text-lg text-white">M</span>,
   },
   {
     name: "Github",
-    href: "https://github.com/",
+    href: "https://github.com/jbscript",
     bgColorClass: "bg-black",
     child: <span className="font-semibold text-lg text-white">G</span>,
   },
   {
-    name: "Stripe",
-    href: "http://stripe.com/",
+    name: "LangChain",
+    href: "https://langchain.com/",
     bgColorClass: "bg-purple-600",
-    child: <span className="font-semibold text-lg text-white">S</span>,
-  },
-  {
-    name: "Superhuman",
-    href: "https://superhuman.com/",
-    bgColorClass: "bg-black",
-    child: <span className="font-semibold text-lg text-white">S</span>,
-  },
-  {
-    name: "Spotify",
-    href: "http://spotify.com/",
-    bgColorClass: "bg-spotify-green",
-    child: <span className="font-semibold text-lg text-black">S</span>,
+    child: <span className="font-semibold text-lg text-white">L</span>,
   },
 ];
 
 const skills = [
   "React",
-  "Typescript",
   "Next.js",
-  "Tailwind CSS",
-  "GraphQL",
-  "WCAG 2.2",
+  "TypeScript",
+  "Python",
+  "FastAPI",
+  "PostgreSQL",
+  "MongoDB",
+  "LangChain",
+  "Docker",
+  "AWS",
 ];
 
 const ToolsSection = () => {
