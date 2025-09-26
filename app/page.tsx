@@ -58,16 +58,16 @@ export default function Home() {
           className="self-start"
         />
         <div className="flex flex-col text-[#9b9c9c] items-start text-left text-[17px] font-medium gap-y-4 max-w-3xl md:max-w-4xl my-3">
-          <h1 className="leading-tight tracking-tight">
-            I'm <span className="text-white">Alyssa X</span>, a designer,
-            developer, and serial maker.
+          <h1 className="tracking-tight">
+            I'm <span className="text-white">Jabir </span>, a designer and
+            developer building digital products.
           </h1>
-          <p className="leading-relaxed">
-            As a 🦄 I've built and shipped{" "}
-            <span className="text-white">12+ products</span> (with over 160K
-            users), been 2 times a Product Hunt{" "}
-            <span className=" text-white">Maker of The Year</span> finalist, and
-            much more ✌
+
+          <p className="tracking-tigh">
+            As a 🚀 I’ve built multiple products, freelanced, worked at
+            startups, and now I’m building
+            <span className="text-white"> AssureQA</span>— an AI-powered
+            automation platform for smarter software testing ✌.
           </p>
           <a
             href="mailto:hi@alyssax.com"
