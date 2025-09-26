@@ -25,15 +25,15 @@ export default function Home() {
         />
         <div className="flex flex-col text-[#9b9c9c] items-start text-left text-base font-medium gap-y-4 max-w-3xl md:max-w-4xl my-3">
           <h1 className="">
-            I&apos;m <span className="text-white">Jabir </span>, a designer and
-            developer building digital products.
+            I&apos;m <span className="text-primary-foreground">Jabir </span>, a
+            designer and developer building digital products.
           </h1>
 
           <p className="tracking">
             As a 🚀 I’ve built multiple products, freelanced, worked at
             startups, and now I’m building
-            <span className="text-white"> AssureQA</span>— an AI-powered
-            automation platform for smarter software testing ✌.
+            <span className="text-primary-foreground"> AssureQA</span>— an
+            AI-powered automation platform for smarter software testing ✌.
           </p>
           <a
             href="mailto:hi@example.com"
@@ -46,8 +46,10 @@ export default function Home() {
 
       <div className="my-8">
         <div className="text-sm font-bold flex items-center gap-5 my-4">
-          <div className="relative text-white cursor-pointer">Products</div>
-          <div className="flex items-center gap-2 text-gray-500 transition-colors duration-200 ease-in-out hover:text-white">
+          <div className="relative text-primary-foreground cursor-pointer">
+            Products
+          </div>
+          <div className="flex items-center gap-2 text-gray-500 transition-colors duration-200 ease-in-out">
             Stack
           </div>
         </div>
