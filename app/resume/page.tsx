@@ -1,4 +1,4 @@
-import { ArrowRight, Clock, MapPin } from "lucide-react";
+import { ArrowRight, Download, MapPin } from "lucide-react";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import resumeData from "@/data/resume.json";
@@ -15,10 +15,14 @@ export default function StackPage() {
               Trivandrum, Kerala
             </p>
           </div>
-          <div className="flex items-center gap-2">
-            <Clock className="h-4 w-4 text-muted-foreground" />
-            <p className="font-mono text-xs text-muted-foreground">8:55 CDT</p>
-          </div>
+          <a
+            href="/resume.pdf"
+            download="Jabir_Resume.pdf"
+            className="flex items-center gap-2 px-3 py-1.5 text-xs font-medium text-foreground bg-background border border-border/50 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+          >
+            <Download className="h-3 w-3" />
+            Download Resume
+          </a>
         </div>
       </header>
 
