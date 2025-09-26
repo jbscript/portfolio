@@ -82,7 +82,7 @@ export default function StackPage() {
                       </div>
                     </div>
                   </div>
-                  <div className="text-sm text-muted-foreground leading-normal space-y-1">
+                  <div className="text-sm text-muted-foreground leading-normal space-y-1 ml-11">
                     <p>
                       • Building TestGenix, an AI-powered test automation
                       platform that generates end-to-end test cases using LLMs.
@@ -121,7 +121,7 @@ export default function StackPage() {
                       </div>
                     </div>
                   </div>
-                  <div className="text-sm text-muted-foreground leading-normal space-y-1">
+                  <div className="text-sm text-muted-foreground leading-normal space-y-1 ml-11">
                     <p>
                       • Engineered a hybrid automation framework (Java +
                       Selenium) boosted test reusability and significantly cut
