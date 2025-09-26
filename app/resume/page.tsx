@@ -68,12 +68,12 @@ export default function StackPage() {
               <div className="block">
                 <div className="flex flex-col gap-2">
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded flex items-center justify-center">
+                    <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
                       <Image
-                        src="/assure-qa.png"
+                        src="/assureqa.png"
                         alt="AssureQA Logo"
-                        width={40}
-                        height={40}
+                        width={24}
+                        height={24}
                         className="rounded"
                       />
                     </div>
@@ -113,12 +113,12 @@ export default function StackPage() {
               <div className="block">
                 <div className="flex flex-col gap-2">
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded flex items-center justify-center">
+                    <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
                       <Image
                         src="/msl.png"
                         alt="Max Stack Labs Logo"
-                        width={40}
-                        height={40}
+                        width={24}
+                        height={24}
                         className="rounded"
                       />
                     </div>
