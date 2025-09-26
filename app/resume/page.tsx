@@ -104,7 +104,7 @@ export default function StackPage() {
 
           {/* EducationSection  */}
           <section className="pt-12">
-            <div className="border-t border-border pt-6">
+            <div className="pt-6">
               <div className="pb-6">
                 <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">
                   Education
@@ -136,7 +136,7 @@ export default function StackPage() {
 
           {/* CertificationsSection  */}
           <section className="pt-12">
-            <div className="border-b border-border pb-6">
+            <div className="pb-6">
               <div className="pb-6">
                 <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">
                   Certifications
@@ -179,7 +179,7 @@ export default function StackPage() {
 
           {/* LanguagesSection  */}
           <section>
-            <div className="border-b border-border pb-12">
+            <div className="pb-12">
               <h3 className="text-section-header">LANGUAGES</h3>
               <div className="mt-8 space-y-3">
                 {[
@@ -199,7 +199,7 @@ export default function StackPage() {
             </div>
           </section>
           {/* ContactSection */}
-          <section className="border-t border-border pt-8">
+          <section className="pt-8">
             <h3 className="text-sm font-bold uppercase tracking-wider text-foreground mb-6">
               CONTACT
             </h3>
@@ -298,7 +298,7 @@ const certificationsData: Certification[] = [
 ];
 
 const SkillPill = ({ skill }: { skill: string }) => (
-  <div className="flex items-center justify-center rounded-[20px] border border-border bg-secondary px-3 py-1.5">
+  <div className="flex items-center justify-center rounded-[20px] bg-secondary px-3 py-1.5">
     <p className="text-sm text-muted-foreground">{skill}</p>
   </div>
 );
@@ -404,7 +404,7 @@ const skills = [
 const ToolsSection = () => {
   return (
     <section>
-      <div className="flex flex-col gap-6 border-t border-border py-10 pt-12">
+      <div className="flex flex-col gap-6 py-10 pt-12">
         <h3 className="text-sm font-bold uppercase tracking-wider text-foreground">
           Skills / Stack
         </h3>
