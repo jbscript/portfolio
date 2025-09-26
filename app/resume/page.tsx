@@ -263,25 +263,3 @@ export default function StackPage() {
     </div>
   );
 }
-
-const ToolIcon = ({
-  href,
-  name,
-  bgColorClass,
-  children,
-}: {
-  href: string;
-  name: string;
-  bgColorClass: string;
-  children: React.ReactNode;
-}) => (
-  <a
-    href={href}
-    target="_blank"
-    rel="noopener noreferrer"
-    className={`flex h-10 w-10 items-center justify-center rounded-full ${bgColorClass}`}
-    aria-label={name}
-  >
-    {children}
-  </a>
-);
