@@ -17,7 +17,7 @@ export default function Home() {
       </header>
       <section className="container flex flex-col items-start text-left text-md max-w-md">
         <Image
-          src={getImagePath("logo.svg")}
+          src={getImagePath("/logo.svg")}
           alt="Jabir Logo"
           width={34}
           height={34}
