@@ -10,52 +10,13 @@ type Product = {
 
 const productsData: Product[] = [
   {
-    name: "PixelForge",
+    name: "Launch-saas",
     description:
-      "An AI-powered tool to generate stunning pixel art in seconds. Featured in multiple indie dev showcases worldwide.",
-    link: "https://pixelforge.dev/",
-    linkText: "pixelforge.dev",
-    imageUrl: "https://picsum.photos/seed/pixelforge/400/250",
-  },
-  {
-    name: "TaskWhiz",
-    description:
-      "A lightweight productivity app that helps you organize tasks with smart reminders and gamified streaks.",
-    link: "https://github.com/example/taskwhiz",
-    linkText: "github.com/example/taskwhiz",
-    imageUrl: "https://picsum.photos/seed/taskwhiz/400/250",
-  },
-  {
-    name: "CollabBoard",
-    description:
-      "A real-time collaborative whiteboard for brainstorming with sticky notes, mind maps, and drawing tools.",
-    link: "https://collabboard.app/",
-    linkText: "collabboard.app",
-    imageUrl: "https://picsum.photos/seed/collabboard/400/250",
-  },
-  {
-    name: "Clipster",
-    description:
-      "The easiest way to trim, edit, and share video clips online — think of it as a pocket-sized Premiere Pro.",
-    link: "https://clipster.io/",
-    linkText: "clipster.io",
-    imageUrl: "https://picsum.photos/seed/clipster/400/250",
-  },
-  {
-    name: "AutoPilotX",
-    description:
-      "An experimental Chrome extension that automates repetitive browsing tasks using drag-and-drop blocks.",
-    link: "https://github.com/example/autopilotx",
-    linkText: "github.com/example/autopilotx",
-    imageUrl: "https://picsum.photos/seed/autopilotx/400/250",
-  },
-  {
-    name: "AstroRun",
-    description:
-      "A fast-paced space adventure game where you dodge asteroids and chase the leaderboard.",
-    link: "https://astrorun.fun/",
-    linkText: "astrorun.fun",
-    imageUrl: "https://picsum.photos/seed/astrorun/400/250",
+      "A powerful saas boilerplate to kickstart your next project effortlessly.",
+    link: "https://github.com/jbscript/LaunchSaaS",
+    linkText: "github.com/jbscript/LaunchSaaS",
+    imageUrl:
+      "https://private-user-images.githubusercontent.com/16812389/427528632-ca9228b6-865b-446d-8dc1-fab91b2e99bb.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTg5MDQ5NDEsIm5iZiI6MTc1ODkwNDY0MSwicGF0aCI6Ii8xNjgxMjM4OS80Mjc1Mjg2MzItY2E5MjI4YjYtODY1Yi00NDZkLThkYzEtZmFiOTFiMmU5OWJiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTI2VDE2MzcyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRiZWI2NGVjMzFmNjkwODEyMjVhOTVlOGI5ODA5ZWM2YmEwMTg3YTNjOTAzMDFlMTQ5ZTc2NmVlYzhiNjMwYWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._-b71xtWpx-y4Q3EnDu6A2avLqeol-ydDgBR3eVjSZk",
   },
 ];
 
@@ -97,7 +58,9 @@ const ProductCard = ({ product }: { product: Product }) => {
         </div>
       </a>
       <div className="flex flex-col flex-grow mt-6 text-sm">
-        <h3 className="font-semibold">{product.name}</h3>
+        <h3 className="font-semibold text-primary-foreground">
+          {product.name}
+        </h3>
         <p className="text-muted-foreground font-medium mt-2 leading-relaxed">
           {product.description}
         </p>
