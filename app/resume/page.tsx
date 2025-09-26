@@ -1,5 +1,6 @@
 import { ArrowRight, Clock, FramerIcon, MapPin } from "lucide-react";
 import Image from "next/image";
+import { Badge } from "@/components/ui/badge";
 
 export default function StackPage() {
   return (
@@ -236,7 +237,9 @@ export default function StackPage() {
             <div className="flex flex-col gap-4">
               <div className="flex flex-wrap gap-2">
                 {skills.map((skill) => (
-                  <SkillPill key={skill} skill={skill} />
+                  <Badge key={skill} variant="secondary">
+                    {skill}
+                  </Badge>
                 ))}
               </div>
               <div className="flex flex-wrap gap-2">
@@ -375,11 +378,7 @@ const certificationsData: Certification[] = [
   },
 ];
 
-const SkillPill = ({ skill }: { skill: string }) => (
-  <div className="flex items-center justify-center rounded-[20px] bg-secondary px-3 py-1.5">
-    <p className="text-sm text-muted-foreground">{skill}</p>
-  </div>
-);
+
 
 const ToolIcon = ({
   href,
