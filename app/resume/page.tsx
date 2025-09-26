@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function StackPage() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-background text-foreground font-mono">
       {/* Header */}
       <header className="w-full ">
         <div className="mx-auto flex h-16 w-full max-w-[680px] items-center justify-between px-4  border-l border-r border-border/50">
