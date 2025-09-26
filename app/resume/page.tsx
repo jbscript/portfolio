@@ -50,73 +50,53 @@ export default function StackPage() {
             </p>
           </section>
           {/* ExperienceSection  */}
-          <section className="flex flex-col gap-6">
-            {/* SECTION TITLE */}
-            <div>
-              <h3 className="text-section-header">Experience</h3>
+          <section>
+            <div className="pb-6">
+              <h3 className="text-sm font-bold uppercase tracking-wide text-foreground">
+                Experience
+              </h3>
             </div>
-
-            {/* ASSUREQA EXPERIENCE GROUP */}
-            <div className="flex gap-4">
-              {/* Logo */}
-              <div className="w-10 h-10 flex-shrink-0 bg-blue-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">A</span>
-              </div>
-
-              {/* Position */}
-              <div className="flex-grow">
-                <div>
-                  <h4 className="text-job-title">Senior Software Engineer</h4>
-                  <div className="flex items-center gap-1 text-company-date mt-1">
-                    <p className="uppercase">ASSUREQA</p>
-                    <span>·</span>
-                    <p>2022-PRESENT</p>
+            <div className="flex flex-col gap-4">
+              {/* ASSUREQA EXPERIENCE */}
+              <div className="block">
+                <div className="flex flex-col gap-2">
+                  <div className="flex flex-col gap-1">
+                    <h4 className="text-base font-semibold text-foreground">
+                      Senior Software Engineer
+                    </h4>
+                    <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                      <p>AssureQA</p>
+                      <span>·</span>
+                      <p>2022-Present</p>
+                    </div>
                   </div>
-                  <ul className="text-body mt-2 list-disc pl-5 space-y-1">
-                    <li>
-                      Building TestGenix, an AI-powered test automation platform that generates end-to-end test cases using LLMs.
-                    </li>
-                    <li>
-                      Developed a Chrome Extension to record and replay browser events for automated web testing.
-                    </li>
-                    <li>
-                      Built an API testing tool (Postman alternative) with request chaining, validations, and automated workflows.
-                    </li>
-                    <li>
-                      Designed a visual Flow Builder for testers to create, schedule, and manage test scenarios.
-                    </li>
-                  </ul>
+                  <div className="text-sm text-muted-foreground leading-normal space-y-1">
+                    <p>• Building TestGenix, an AI-powered test automation platform that generates end-to-end test cases using LLMs.</p>
+                    <p>• Developed a Chrome Extension to record and replay browser events for automated web testing.</p>
+                    <p>• Built an API testing tool (Postman alternative) with request chaining, validations, and automated workflows.</p>
+                    <p>• Designed a visual Flow Builder for testers to create, schedule, and manage test scenarios.</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* MAX STACK LABS EXPERIENCE GROUP */}
-            <div className="flex gap-4">
-              {/* Logo */}
-              <div className="w-10 h-10 flex-shrink-0 bg-green-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">M</span>
-              </div>
-
-              {/* Position */}
-              <div className="flex-grow">
-                <div>
-                  <h4 className="text-job-title">Software Engineer</h4>
-                  <div className="flex items-center gap-1 text-company-date mt-1">
-                    <p>Max Stack Labs Technologies</p>
-                    <span>·</span>
-                    <p>2020-2022</p>
+              {/* MAX STACK LABS EXPERIENCE */}
+              <div className="block">
+                <div className="flex flex-col gap-2">
+                  <div className="flex flex-col gap-1">
+                    <h4 className="text-base font-semibold text-foreground">
+                      Software Engineer
+                    </h4>
+                    <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                      <p>Max Stack Labs Technologies</p>
+                      <span>·</span>
+                      <p>2020-2022</p>
+                    </div>
                   </div>
-                  <ul className="text-body mt-2 list-disc pl-5 space-y-1">
-                    <li>
-                      Engineered a hybrid automation framework (Java + Selenium) boosted test reusability and significantly cut execution time.
-                    </li>
-                    <li>
-                      Built React-based frontends for internal tools, streamlining workflows and improving user experience for engineering teams.
-                    </li>
-                    <li>
-                      Played a key role in developing Poivaa, a travel application, contributing both to feature delivery and robust automated test coverage for high reliability.
-                    </li>
-                  </ul>
+                  <div className="text-sm text-muted-foreground leading-normal space-y-1">
+                    <p>• Engineered a hybrid automation framework (Java + Selenium) boosted test reusability and significantly cut execution time.</p>
+                    <p>• Built React-based frontends for internal tools, streamlining workflows and improving user experience for engineering teams.</p>
+                    <p>• Played a key role in developing Poivaa, a travel application, contributing both to feature delivery and robust automated test coverage for high reliability.</p>
+                  </div>
                 </div>
               </div>
             </div>
