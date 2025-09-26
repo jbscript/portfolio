@@ -42,8 +42,8 @@ export default function Home() {
               <Image
                 src={getImagePath(link.icon)}
                 alt={`${link.name} logo`}
-                width={24}
-                height={24}
+                width={18}
+                height={18}
               />
             </a>
           ))}
@@ -57,7 +57,7 @@ export default function Home() {
           height={34}
           className="self-start"
         />
-        <div className="flex flex-col text-[#9b9c9c] items-start text-left font-medium gap-y-4 max-w-3xl md:max-w-4xl my-2.5">
+        <div className="flex flex-col text-[#9b9c9c] items-start text-left text-[17px] font-medium gap-y-4 max-w-3xl md:max-w-4xl my-3">
           <h1 className="leading-tight tracking-tight">
             I'm <span className="text-white">Alyssa X</span>, a designer,
             developer, and serial maker.

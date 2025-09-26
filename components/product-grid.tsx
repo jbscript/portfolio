@@ -166,22 +166,22 @@ const ProductCard = ({ product }: { product: Product }) => {
             alt={product.name}
             width={370}
             height={231}
-            className={`w-full h-full transition-transform duration-300 group-hover:scale-105 ${
+            className={`w-full rounded-xs h-full transition-transform duration-300 group-hover:scale-105 ${
               isGameCard ? "object-contain p-12" : "object-cover"
             }`}
           />
         </div>
       </a>
-      <div className="flex flex-col flex-grow">
-        <h3 className="text-xl font-semibold">{product.name}</h3>
-        <p className="text-muted-foreground mt-2 text-base leading-relaxed">
+      <div className="flex flex-col flex-grow mt-6 text-sm">
+        <h3 className="font-semibold">{product.name}</h3>
+        <p className="text-muted-foreground font-medium mt-2 leading-relaxed">
           {product.description}
         </p>
         <a
           href={product.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-primary font-medium text-base mt-auto pt-4 self-start hover:text-link-hover"
+          className="font-semibold text-secondary-foreground mt-auto pt-4 self-start hover:text-link-hover"
         >
           {product.linkText}
           <span className="inline-block transition-transform duration-200 ease-in-out group-hover:translate-x-1 ml-1">
