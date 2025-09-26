@@ -170,6 +170,16 @@ const ProductCard = ({ product }: { product: Product }) => {
               isGameCard ? "object-contain p-12" : "object-cover"
             }`}
           />
+
+          {/* <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            src="https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4"
+            className="pointer-events-none mx-auto h-40 w-full object-cover object-top rounded"
+          ></video> */}
         </div>
       </a>
       <div className="flex flex-col flex-grow mt-6 text-sm">
