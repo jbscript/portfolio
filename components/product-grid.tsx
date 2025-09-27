@@ -1,3 +1,4 @@
+import { getImagePath } from "@/lib/image-path";
 import Image from "next/image";
 
 type Product = {
@@ -36,7 +37,7 @@ const ProductCard = ({ product }: { product: Product }) => {
           } overflow-hidden`}
         >
           <Image
-            src={product.imageUrl}
+            src={getImagePath(product.imageUrl)}
             alt={product.name}
             width={370}
             height={231}
